@@ -1,0 +1,12 @@
+.carrito{
+    margin: 0 10px;
+}.cartIcon{
+    display: none;
+}
+@media(max-width: 992px){
+    .cartIcon{
+        display: inline-block;
+    }.carrito{
+        display: none;
+    }
+}
